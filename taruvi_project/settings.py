@@ -667,6 +667,9 @@ TENANT_APPS = [
     'allauth.account',              # Site-specific account management
     'allauth.socialaccount',        # Site-specific social authentication
     
+    # Taruvi Cloud tenant-specific apps
+    'environment_vars',             # Hierarchical environment variables and secrets
+    
     # Future tenant-specific apps (add as you build features)
     # 'projects',      # Project settings, configurations
     # 'tasks',         # Project tasks, workflows

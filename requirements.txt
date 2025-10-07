@@ -34,6 +34,7 @@ django-simple-history==3.8.0
 django-storages==1.14.6
 django-tenants==3.9.0
 django-timezone-field==7.1
+django-encrypted-model-fields==0.6.5
 django_celery_results==2.6.0
 djangorestframework==3.16.1
 djangorestframework_simplejwt==5.5.1

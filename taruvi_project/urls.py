@@ -29,6 +29,7 @@ urlpatterns = [
     path("", home, name='home'),  # Root URL for tenant info
     path("admin/", admin.site.urls),
     path('api/', include('core.urls')),
+    path('api/environment/', include('environment_vars.urls')),  # Environment variables API
     # API Documentation
     path('api/schema/', SpectacularAPIView.as_view(), name='schema'),
     path('api/docs/', SpectacularSwaggerView.as_view(url_name='schema'), name='swagger-ui'),
